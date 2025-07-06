@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "997695311497",
+    "project_id": "notes-d4f24",
+    "storage_bucket": "notes-d4f24.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997695311497:android:4a488ac3f0a594ba850058",
+        "android_client_info": {
+          "package_name": "com.example.notes_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3AnM52pdl7DtmFN8PKfCGVzpyLxptw84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
