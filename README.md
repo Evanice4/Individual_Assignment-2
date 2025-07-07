@@ -1,4 +1,4 @@
-# Notes_app - Fliutter + Firebase + BloC
+# Notes_app - Flutter + Firebase + BloC
 
 This project is a simple **Notes App** built with **Flutter** , connected to **Firebase Firestore** for data storage and **Firebase Authentication** for login / signup funtionality. State management is handled using **BloC**.
 
