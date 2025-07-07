@@ -98,6 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: Icon(Icons.logout),
             onPressed: () async {
               await FirebaseAuth.instance.signOut();
+              if (!context.mounted) return;
               Navigator.pushReplacementNamed(context, '/login');
             },
           ),
@@ -113,12 +114,6 @@ class _HomeScreenState extends State<HomeScreen> {
             if (state is NotesLoading) {
               return Center(child: CircularProgressIndicator());
             }
-        
-          // ///  if (state is NotesError) {
-          //     ScaffoldMessenger.of(context).showSnackBar(
-          //       SnackBar(content: Text(state.message)),
-          //     );
-          //   }
         
             if (state is NotesLoaded) {
               final notes = state.notes;
