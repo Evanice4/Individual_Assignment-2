@@ -1,16 +1,28 @@
-# notes_app
+# Notes_app - Fliutter + Firebase + BloC
 
-A new Flutter project.
+This project is a simple **Notes App** built with **Flutter** , connected to **Firebase Firestore** for data storage and **Firebase Authentication** for login / signup funtionality. State management is handled using **BloC**.
 
-## Getting Started
+--------------------------------------------------------------------------------------
+### Features
+- User authentication (login / signup)
+- Create, Read, Update, and Delete (CRUD) notes.
+- Each user's notes are stored separately.
+- Notes are displayed in a list view.
+- Firebase integrated using 'firebase_auth' and 'cloud firestore'.
+- State management using BloC.
 
-This project is a starting point for a Flutter application.
+--------------------------------------------------------------------------------------
 
-A few resources to get you started if this is your first Flutter project:
+### Technologies Used
+- Flutter SDK
+- Firebase Firestore (for storage)
+- Firebase Auth
+- Android Studio & Visual Studio Code
+- Github
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#### Authentication
+- Users must sign in to create or view notes.
+- Notes are linked to the current user's ID.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+i,e. - Tested on a physical emulator (mobile phone)
+
